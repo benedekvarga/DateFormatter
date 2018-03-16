@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D7D1ED8205BE20F000787DD /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0D7D1ED7205BE20F000787DD /* README.md */; };
+		0D7D1EDA205BE219000787DD /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 0D7D1ED9205BE219000787DD /* LICENSE */; };
 		0DC5914C205A53A8006A2466 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC5914B205A53A8006A2466 /* AppDelegate.swift */; };
 		0DC5914E205A53A9006A2466 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC5914D205A53A9006A2466 /* ViewController.swift */; };
 		0DC59151205A53A9006A2466 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DC5914F205A53A9006A2466 /* Main.storyboard */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D7D1ED7205BE20F000787DD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0D7D1ED9205BE219000787DD /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		0DC59148205A53A8006A2466 /* DateFormatter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DateFormatter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DC5914B205A53A8006A2466 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0DC5914D205A53A9006A2466 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,6 +44,8 @@
 		0DC5913F205A53A8006A2466 = {
 			isa = PBXGroup;
 			children = (
+				0D7D1ED7205BE20F000787DD /* README.md */,
+				0D7D1ED9205BE219000787DD /* LICENSE */,
 				0DC5914A205A53A8006A2466 /* DateFormatter */,
 				0DC59162205A5483006A2466 /* Supporting Files */,
 				0DC59149205A53A8006A2466 /* Products */,
@@ -145,7 +151,9 @@
 			files = (
 				0DC59156205A53A9006A2466 /* LaunchScreen.storyboard in Resources */,
 				0DC59153205A53A9006A2466 /* Assets.xcassets in Resources */,
+				0D7D1ED8205BE20F000787DD /* README.md in Resources */,
 				0DC59151205A53A9006A2466 /* Main.storyboard in Resources */,
+				0D7D1EDA205BE219000787DD /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
