@@ -23,6 +23,8 @@ Your `Date` instances now have new computed `String` properties:<br />
 
 You can call `custom(format: String)` on any of your `Date` instances which returns the `Date` in `String` with custom format. Use `yyyy` for year, `MM` for month, `dd` for day, `hh` for hour, `mm` for minute, `ss` for second and `SSSS` for milisecond.
 
+You can find examples in `ViewController.swift`.
+
 ## Support
 
 Please [open an issue](https://github.com/benedekvarga/DateFormatter/issues/new) for support.

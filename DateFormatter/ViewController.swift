@@ -23,4 +23,3 @@ class ViewController: UIViewController {
         print(date.custom(format: "yyyy/MM/dd hh:mm:ss:SSSS"))
     }
 }
-
