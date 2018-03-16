@@ -12,18 +12,15 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
 
-        print(Date().full)
-        print(Date().date)
-        print(Date().time)
+        let date = Date()
+
+        print(date.full)
+        print(date.date)
+        print(date.dateReversed)
+        print(date.time)
+        print(date.iso8601)
+        print(date.custom(format: "yyyy/MM/dd hh:mm:ss:SSSS"))
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
 

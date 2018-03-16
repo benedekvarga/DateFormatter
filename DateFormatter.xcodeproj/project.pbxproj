@@ -41,6 +41,7 @@
 			isa = PBXGroup;
 			children = (
 				0DC5914A205A53A8006A2466 /* DateFormatter */,
+				0DC59162205A5483006A2466 /* Supporting Files */,
 				0DC59149205A53A8006A2466 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,10 +57,9 @@
 		0DC5914A205A53A8006A2466 /* DateFormatter */ = {
 			isa = PBXGroup;
 			children = (
-				0DC59162205A5483006A2466 /* Supporting Files */,
-				0DC5915E205A53C9006A2466 /* Utility */,
 				0DC5914D205A53A9006A2466 /* ViewController.swift */,
 				0DC5914F205A53A9006A2466 /* Main.storyboard */,
+				0DC5915E205A53C9006A2466 /* Utility */,
 			);
 			path = DateFormatter;
 			sourceTree = "<group>";
@@ -81,6 +81,7 @@
 				0DC59157205A53A9006A2466 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			path = DateFormatter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
