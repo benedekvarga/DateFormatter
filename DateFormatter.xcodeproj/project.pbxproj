@@ -12,6 +12,7 @@
 		0DC59151205A53A9006A2466 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DC5914F205A53A9006A2466 /* Main.storyboard */; };
 		0DC59153205A53A9006A2466 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DC59152205A53A9006A2466 /* Assets.xcassets */; };
 		0DC59156205A53A9006A2466 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DC59154205A53A9006A2466 /* LaunchScreen.storyboard */; };
+		0DC59160205A53DA006A2466 /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC5915F205A53DA006A2466 /* DateFormatter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		0DC59152205A53A9006A2466 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DC59155205A53A9006A2466 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0DC59157205A53A9006A2466 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DC5915F205A53DA006A2466 /* DateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,31 @@
 		0DC5914A205A53A8006A2466 /* DateFormatter */ = {
 			isa = PBXGroup;
 			children = (
-				0DC5914B205A53A8006A2466 /* AppDelegate.swift */,
+				0DC59162205A5483006A2466 /* Supporting Files */,
+				0DC5915E205A53C9006A2466 /* Utility */,
 				0DC5914D205A53A9006A2466 /* ViewController.swift */,
 				0DC5914F205A53A9006A2466 /* Main.storyboard */,
+			);
+			path = DateFormatter;
+			sourceTree = "<group>";
+		};
+		0DC5915E205A53C9006A2466 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				0DC5915F205A53DA006A2466 /* DateFormatter.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		0DC59162205A5483006A2466 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0DC5914B205A53A8006A2466 /* AppDelegate.swift */,
 				0DC59152205A53A9006A2466 /* Assets.xcassets */,
 				0DC59154205A53A9006A2466 /* LaunchScreen.storyboard */,
 				0DC59157205A53A9006A2466 /* Info.plist */,
 			);
-			path = DateFormatter;
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DC59160205A53DA006A2466 /* DateFormatter.swift in Sources */,
 				0DC5914E205A53A9006A2466 /* ViewController.swift in Sources */,
 				0DC5914C205A53A8006A2466 /* AppDelegate.swift in Sources */,
 			);
