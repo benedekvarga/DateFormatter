@@ -66,5 +66,27 @@ extension Date {
         return "\(year)-\(month)-\(day)'T'\(hour):\(minute):\(sec)"
     }
 
+    // Returns date and time with custom format. Use 'yyyy', 'MM', 'dd', 'hh', 'mm', 'ss', 'SSSS'.
+    func custom(format: String) -> String {
+        let calendar = Calendar.current
+        let year = calendar.component(.year, from: self)
+        let month = calendar.component(.month, from: self)
+        let day = calendar.component(.day, from: self)
+        let hour = calendar.component(.hour, from: self)
+        let minute = calendar.component(.minute, from: self)
+        let sec = calendar.component(.second, from: self)
+        let milisec = (calendar.component(.nanosecond, from: self))/10
+
+        var formatted = format.replacingOccurrences(of: "yyyy", with: "\(year)")
+        formatted = format.replacingOccurrences(of: "MM", with: "\(month)")
+        formatted = format.replacingOccurrences(of: "dd", with: "\(day)")
+        formatted = format.replacingOccurrences(of: "hh", with: "\(hour)")
+        formatted = format.replacingOccurrences(of: "mm", with: "\(minute)")
+        formatted = format.replacingOccurrences(of: "ss", with: "\(sec)")
+        formatted = format.replacingOccurrences(of: "SSSS", with: "\(milisec)")
+
+        return formatted
+    }
+
 }
 
